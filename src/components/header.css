@@ -1,28 +1,33 @@
 .header{
-    height: 50%;
-    border-radius: 20px 20px 0 0;
-    background-color: #D06320;
+    height: 70%;
     flex-direction: column;
-  }
-  
-  
-  .title{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    font-family: 'Alfa Slab One', cursive;
-    font-size: 40px;
-    height: 30%;
-    width: 100%;
-  }
-  
-  .subTitle{
-    height: 71%;
-    width: 100%;
-    text-align: center;
-    background-color: #96C5D8;
-    font-family: 'Itim', cursive;
-    padding-top: 5%;
-    font-size: 15px;
-  }
+}
+
+.title{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Alfa Slab One', cursive;
+  border-radius: 20px 20px 0 0;
+  background-color: #BBCEC0;
+  font-size: 40px;
+  height: 33%;
+  width: 100%;
+}
+
+.subTitle{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 71%;
+  width: 100%;
+  text-align: center;
+  background-color: #424563;
+  font-family: 'Itim', cursive;
+  font-size: 15px;
+}
+
+.ui.card > .content > .header:not(.ui), .ui.cards > .card > .content > .header:not(.ui){
+  height: 30%;
+}

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import "../header.css"
+import "./header.css"
 
 class Header extends Component {
     render() {
@@ -9,12 +9,23 @@ class Header extends Component {
                     <p>Converter "px, em, rem" </p>
                 </div>
                 <div className="subTitle">
-                    <p>Podes realizar las siguientes conversiones:</p>
-                    <br></br>
-                    <p>* Pixeles -> em o rem</p>
-                    <p>* em o rem -> Pixeles</p>
-                    <br></br>
-                    <p>Tene en cuenta que: 1 em = 1 rem = 16 px</p>
+                    <div class="ui centered cards">
+                        <div class="ui card">
+                            <div class="content">
+                                <div class="header">Podes convertir</div>
+                                <div class="description">
+                                    <p>*De px --> em ó rem</p>
+                                    <p>*De em ó rem  --> px</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ui card">
+                            <div class="content">
+                                <div class="header">A tener en cuenta:</div>
+                                <div class="description">1 em = 1 rem = 16px</div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         );
