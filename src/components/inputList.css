@@ -1,10 +1,10 @@
 .converter{
-    height: 50%;
+    height: 30%;
     display: flex;
     justify-content: space-around;
     align-items:center;
     flex-wrap: wrap;
-    background-color: #CDB171;
+    background-color: #424563;
     border-radius: 0px 0px 20px 20px;
   }
   
