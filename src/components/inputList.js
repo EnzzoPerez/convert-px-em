@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import "./inputList.css";
 
 class InputList extends Component {
     constructor(){
@@ -76,16 +77,21 @@ class InputList extends Component {
         }
 
         return (
-            <div>
-                <input type="number" value={this.state.from.input} onChange={this.handleInput}/>
-                <select id="from" value={this.state.from.select} onChange={this.handleSelect} >
-                    {opciones}
-                </select>
-
-                <input type="number" disabled="true" value={this.state.to.input || '0'}/>
-                <select id="to" value={this.state.to.select} onChange={this.handleSelect}>
-                    {opciones}
-                </select>
+            <div className="converter">
+                <div className="ui labeled input">
+                    <div class="ui label label">N° a convertir</div>
+                    <input type="number" value={this.state.from.input} onChange={this.handleInput}/>
+                    <select className="select" id="from" value={this.state.from.select} onChange={this.handleSelect} >
+                        {opciones}
+                    </select>
+                </div>
+                <div className="ui labeled input">
+                    <div class="ui label label">N° Convertido</div>
+                    <input class="ui input" type="number" readonly value={this.state.to.input || '0'}/>
+                    <select className="select" id="to" value={this.state.to.select} onChange={this.handleSelect}>
+                        {opciones}
+                    </select>
+                </div>
             </div>
         );
     }
