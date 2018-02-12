@@ -1,0 +1,28 @@
+.header{
+    height: 50%;
+    border-radius: 20px 20px 0 0;
+    background-color: #D06320;
+    flex-direction: column;
+  }
+  
+  
+  .title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 40px;
+    height: 30%;
+    width: 100%;
+  }
+  
+  .subTitle{
+    height: 71%;
+    width: 100%;
+    text-align: center;
+    background-color: #96C5D8;
+    font-family: 'Itim', cursive;
+    padding-top: 5%;
+    font-size: 15px;
+  }

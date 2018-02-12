@@ -1,0 +1,28 @@
+.converter{
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    flex-wrap: wrap;
+    background-color: #CDB171;
+    border-radius: 0px 0px 20px 20px;
+  }
+  
+  .select{
+    background-color: white;
+    font-size: 18px;
+    font-family: 'PT Sans', sans-serif;
+    border-radius: 4px;
+  }
+  
+  .select::after {
+    content: 'H';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0 1em;
+    background: #34495e;
+    pointer-events: none;
+  }
+  
