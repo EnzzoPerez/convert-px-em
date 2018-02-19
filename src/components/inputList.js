@@ -78,16 +78,16 @@ class InputList extends Component {
 
         return (
             <div className="converter">
-                <div className="ui labeled input">
-                    <div class="ui label label">N° a convertir</div>
+                <div id="input-media" className="ui labeled input">
+                    <div className="ui label label">N° a convertir</div>
                     <input type="number" value={this.state.from.input} onChange={this.handleInput}/>
                     <select className="select" id="from" value={this.state.from.select} onChange={this.handleSelect} >
                         {opciones}
                     </select>
                 </div>
-                <div className="ui labeled input">
-                    <div class="ui label label">N° Convertido</div>
-                    <input class="ui input" type="number" readonly value={this.state.to.input || '0'}/>
+                <div id="input-media" className="ui labeled input">
+                    <div className="ui label label">N° Convertido</div>
+                    <input className="ui input" type="number" readOnly value={this.state.to.input || ''}/>
                     <select className="select" id="to" value={this.state.to.select} onChange={this.handleSelect}>
                         {opciones}
                     </select>
