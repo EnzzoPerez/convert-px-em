@@ -9,20 +9,20 @@ class Header extends Component {
                     <p>Converter "px, em, rem" </p>
                 </div>
                 <div className="subTitle">
-                    <div class="ui centered cards">
-                        <div class="ui card">
-                            <div class="content">
-                                <div class="header">Podes convertir</div>
-                                <div class="description">
+                    <div className="ui centered cards">
+                        <div className="ui card">
+                            <div className="content">
+                                <div className="header">Podes convertir</div>
+                                <div className="description">
                                     <p>*De px --> em ó rem</p>
                                     <p>*De em ó rem  --> px</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="ui card">
-                            <div class="content">
-                                <div class="header">A tener en cuenta:</div>
-                                <div class="description">1 em = 1 rem = 16px</div>
+                        <div className="ui card">
+                            <div className="content">
+                                <div className="header">A tener en cuenta:</div>
+                                <div className="description">1 em = 1 rem = 16px</div>
                             </div>
                         </div>
                     </div>

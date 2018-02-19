@@ -36,7 +36,7 @@
   .title{
     font-size: 20px;
   }
-  .ui.input{
-    display: initial;
+  .ui.centered.cards{
+    width: 100%
   }
 }
